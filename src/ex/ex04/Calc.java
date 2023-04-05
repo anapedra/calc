@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class Calc {
     public static void main(String[] args) {
-        Number number=new Number();
         Number n1=new Number();
         Number n2=new Number();
         Number res=new Number();
