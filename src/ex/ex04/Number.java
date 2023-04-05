@@ -1,8 +1,6 @@
 package ex.ex04;
 
 public class Number {
-
-
     private int value;
     private double valueDecimal;
 

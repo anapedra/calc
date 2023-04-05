@@ -5,22 +5,22 @@ import java.util.Scanner;
 
 public class Calc {
     public static void main(String[] args) {
-
+        Number number=new Number();
+        Number n1=new Number();
+        Number n2=new Number();
+        Number res=new Number();
         Scanner sc=new Scanner(System.in);
         System.out.println("Digite uma das seguintes opções :\n" +
-                "1 para somo\n" +
+                "1 para soma\n" +
                 "2 para subtração\n" +
                 "3 para multiplicação\n" +
                 "4 para divisão\n");
         int x= sc.nextInt();
-        Number number=new Number();
         String op="Sim";
         switch (x){
             case 1:
                 while (op.equalsIgnoreCase("sim")){
-                    Number n1=new Number();
-                    Number n2=new Number();
-                    Number res=new Number();
+
                     System.out.println("Digite o primeiro valor: ");
                     n1.setValue(sc.nextInt());
                     System.out.println("Digite o segundo valor: ");
@@ -35,9 +35,7 @@ public class Calc {
                 break;
             case 2:
                 while (op.equalsIgnoreCase("sim")){
-                    Number n1=new Number();
-                    Number n2=new Number();
-                    Number res=new Number();
+
                     System.out.println("Digite o primeiro valor: ");
                     n1.setValue(sc.nextInt());
                     System.out.println("Digite o segundo valor: ");
@@ -53,9 +51,7 @@ public class Calc {
                 break;
             case 3:
                 while (op.equalsIgnoreCase("sim")){
-                    Number n1=new Number();
-                    Number n2=new Number();
-                    Number res=new Number();
+
                     System.out.println("Digite o primeiro valor: ");
                     n1.setValue(sc.nextInt());
                     System.out.println("Digite o segundo valor: ");
@@ -70,9 +66,6 @@ public class Calc {
                 break;
             case 4:
                 while (op.equalsIgnoreCase("sim")){
-                    Number n1=new Number();
-                    Number n2=new Number();
-                    Number res=new Number();
                     Number sobraDivisão=new Number();
                     Locale.setDefault(Locale.US);
                     System.out.println("Digite o primeiro valor: ");
